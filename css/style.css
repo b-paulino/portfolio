@@ -1,0 +1,505 @@
+a
+{
+	text-decoration: none;
+}
+
+.avatar {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    background-image: url(/image/bruno.png);
+}
+
+body
+{
+	margin: 0px;
+}
+
+#design-portfolio-cloud
+{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 228px;
+	background-image: url(../image/design-portfolio-cloud.png);
+	background-position: center;
+}
+
+@font-face
+{
+	font-family: 'miso-bold';
+    src: url('../font/miso-bold.eot');
+    src: url('../font/miso-bold.eot?#iefix') format('embedded-opentype'),
+         url('../font/miso-bold.woff') format('woff'),
+         url('../font/miso-bold.ttf') format('truetype'),
+         url('../font/miso-bold.svg#miso-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer
+{
+	position: relative;
+	width: 100%;
+	background-color: #505050;
+}
+
+#footer-container
+{
+	position: relative;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	background-color: #505050;
+}
+
+.footer-column
+{
+	position: relative;
+	width: 360px;
+	margin-right: 60px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	float: left;
+}
+
+.footer-column-last
+{
+	margin-right: 0px;
+}
+
+header
+{
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background-color: #505050;
+}
+
+#header-container
+{
+	position: relative;
+	width: 1200px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #505050;
+}
+
+.icon
+{
+	position: relative;
+	width: 44px;
+	height: 44px;
+	margin-right: 8px;
+	display: inline-block;
+}
+
+.icon-last
+{
+	margin-right: 0px;
+}
+
+#icons-container-right
+{
+	position: relative;
+	top: 8px;
+	float: right;
+}
+
+.icon-email
+{
+	background-image: url(../image/icon-email.png);
+}
+
+.icon-facebook
+{
+	background-image: url(../image/icon-facebook.png);
+}
+
+.icon-github
+{
+	background-image: url(../image/icon-github.png);
+}
+
+.icon-linkedin
+{
+	background-image: url(../image/icon-linkedin.png);
+}
+
+.icon-twitter
+{
+	background-image: url(../image/icon-twitter.png);
+}
+
+img
+{ 
+	border-style: none;
+}
+
+.portfolio
+{
+	position: relative;
+	width: 100%;
+	height: 600px;
+}
+
+#portfolio-1
+{
+	background-image: url(../image/ground.png);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	background-color: #00bff3;
+}
+
+#portfolio-2
+{
+	background-color: #f9bf3b;
+}
+
+#portfolio-3
+{
+	background-image: url(../image/design-portfolio-background.jpg);
+	background-position: center top;
+}
+
+.portfolio-container
+{
+	position: relative;
+	width: 1200px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#portfolio-container-1
+{
+	background-image: url(../image/interactive-resume.png);
+}
+
+#portfolio-container-2
+{
+	background-image: url(../image/illustration-portfolio.png);
+}
+
+#portfolio-container-3
+{
+	background-image: url(../image/design-portfolio.jpg);
+}
+
+.portfolio-text-body
+{
+	position: relative;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 18px;
+	margin-bottom: 20px;
+}
+
+.portfolio-text-button-arrow
+{
+	position: relative;
+	width: 11px;
+	height: 16px;
+	margin-right: 8px;
+	background-image: url(../image/button-arrow.png);
+}
+
+.portfolio-text-button
+{
+	position: relative;
+	display: inline-block;
+	padding: 12px;
+	border-style: solid;
+    border-width: 2px;
+	border-radius: 5px;
+	border-color: #ffffff;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.portfolio-text-container
+{
+	position: absolute;
+	width: 360px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.portfolio-text-container-left
+{
+	left: 0px;
+}
+
+.portfolio-text-container-right
+{
+	right: 0px;
+}
+
+.portfolio-text-title
+{
+	position: relative;
+	font-family: miso-bold;
+	color: #ffffff;
+	font-size: 70px;
+	line-height: 56px;
+	margin-bottom: 18px;
+}
+
+.text
+{
+	position: relative;
+	font-family: Arial;
+	font-size: 14px;
+	color: #cccccc;
+	line-height: 20px;
+	margin-bottom: 18px;
+}
+
+.text a
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.title
+{
+	position: relative;
+	font-family: miso-bold;
+	color: #ffffff;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+#title-paulino
+{
+	top: 12px;
+	float: left;
+}
+
+.tutorial-banner
+{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 114px;
+	height: 114px;
+	background-image: url(../image/tutorial-banner.png);
+}
+
+#habilidades {
+    padding: 40px;
+    text-align: center;
+}
+
+#habilidades h2 {
+    font-family: miso-bold;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.habilidades-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.habilidade-card {
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.habilidade-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.habilidade-card img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.habilidade-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+#projetos {
+    padding: 40px;
+    text-align: center;;
+}
+
+#projetos h2 {
+    font-family: miso-bold;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background-position: top center;
+    transition: background-position 0.5s ease;
+}
+
+.project-card:hover .project-image {
+    background-position: bottom center;
+}
+
+.project-content {
+    padding: 20px;
+}
+
+.project-content h3 {
+    font-family: 'miso-bold';
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-content p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.project-content a {
+    color: #00bff3;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.project-content a:hover {
+    color: #007da3;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.tooltip {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#overlay {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 999;
+}
+
+#modal {
+	display: none; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #fff !important;
+    padding: 20px;
+    border-radius: 8px;
+    max-height: 80vh;
+   overflow-y: auto;
+}
+
+#modal-close {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#modal-close:hover {
+    background-color: #555;
+}
+
+body {
+    background: linear-gradient(120deg, #00bff3, #f9bf3b) !important;
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
